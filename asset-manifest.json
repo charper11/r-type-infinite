@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/r-type-infinite/static/css/main.6681e963.css",
+    "main.js": "/r-type-infinite/static/js/main.3031c780.js",
+    "static/media/Orbitron-VariableFont_wght.ttf": "/r-type-infinite/static/media/Orbitron-VariableFont_wght.401289bd772fecf69a15.ttf",
+    "index.html": "/r-type-infinite/index.html",
+    "main.6681e963.css.map": "/r-type-infinite/static/css/main.6681e963.css.map",
+    "main.3031c780.js.map": "/r-type-infinite/static/js/main.3031c780.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6681e963.css",
+    "static/js/main.3031c780.js"
+  ]
+}
