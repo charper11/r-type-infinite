@@ -127,10 +127,10 @@ function playGame(){
             this.hit = false;
         }
         draw(context){
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.ellipse(this.x + this.width / 2, this.y + this.height / 2, this.width / 2, this.height / 2, 0, 0, Math.PI * 2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.ellipse(this.x + this.width / 2, this.y + this.height / 2, this.width / 2, this.height / 2, 0, 0, Math.PI * 2);
+            //context.stroke();
             context.drawImage(this.image, this.width * this.frameX, 0, this.width, this.height, this.x, this.y, this.width, this.height);
         }
         update(input){
@@ -272,10 +272,10 @@ function playGame(){
 
         draw(context){
             context.drawImage(this.image, this.width * this.frameX, 0, this.width, this.height, this.x, this.y, this.width, this.height);
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.ellipse(this.x + this.width/2, this.y + this.height/2, this.width/2, this.height/2, 0, 0, Math.PI*2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.ellipse(this.x + this.width/2, this.y + this.height/2, this.width/2, this.height/2, 0, 0, Math.PI*2);
+            //context.stroke();
         }
 
         update(deltaTime){
@@ -533,10 +533,10 @@ function playGame(){
         }
 
         draw(context){
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.ellipse(this.x + this.width/2, this.y + this.height/2, this.width/2, this.hitboxHeight[this.frameX]/2, 0, 0, Math.PI*2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.ellipse(this.x + this.width/2, this.y + this.height/2, this.width/2, this.hitboxHeight[this.frameX]/2, 0, 0, Math.PI*2);
+            //context.stroke();
             context.drawImage(this.image, this.width * this.frameX, 0, this.width, this.height, this.x, this.y, this.width, this.height);
         }
 
@@ -624,10 +624,10 @@ function playGame(){
 
         draw(context){
             context.drawImage(this.image, this.width * this.frameX, 0, this.width, this.height, this.x, this.y, this.width, this.height);
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.arc(this.x + 6, this.y + this.height/2, 6, 0, Math.PI*2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.arc(this.x + 6, this.y + this.height/2, 6, 0, Math.PI*2);
+            //context.stroke();
         }
 
         update(deltaTime){
@@ -691,10 +691,10 @@ function playGame(){
         }
 
         draw(context) {
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.ellipse(this.x + this.width/2, this.y + this.height/2, this.width/2, this.height/2, 0, 0, Math.PI*2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.ellipse(this.x + this.width/2, this.y + this.height/2, this.width/2, this.height/2, 0, 0, Math.PI*2);
+            //context.stroke();
             context.drawImage(this.image, 0, this.height*this.frameY, this.width, this.height, this.x, this.y, this.width, this.height);
         }
 
@@ -744,10 +744,10 @@ function playGame(){
         }
 
         draw(context) {
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.ellipse(this.x + this.width/2, this.y + this.height/2, this.width/2, this.hitboxHeight[this.frameX]/2, 0, 0, Math.PI*2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.ellipse(this.x + this.width/2, this.y + this.height/2, this.width/2, this.hitboxHeight[this.frameX]/2, 0, 0, Math.PI*2);
+            //context.stroke();
             context.drawImage(this.image, this.x, this.y, this.width, this.height);
         }
 
@@ -799,10 +799,10 @@ function playGame(){
         }
 
         draw(context) {
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.arc(this.x + 12, this.y + this.height/2, 12, 0, Math.PI*2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.arc(this.x + 12, this.y + this.height/2, 12, 0, Math.PI*2);
+            //context.stroke();
             context.drawImage(this.image, this.frameArray[this.frameX], 0, this.width, this.height, this.x, this.y, this.width, this.height);
         }
 
@@ -877,10 +877,10 @@ function playGame(){
         }
 
         draw(context) {
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.arc(this.x + 12, this.y + this.height/2, 12, 0, Math.PI*2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.arc(this.x + 12, this.y + this.height/2, 12, 0, Math.PI*2);
+            //context.stroke();
             context.drawImage(this.image, this.frameArray[this.frameX], this.height*this.frameY, this.width, this.height, this.x, this.y, this.width, this.height);
         }
 
@@ -1053,10 +1053,10 @@ function playGame(){
         }
 
         draw(context) {
-            context.strokeStyle = 'white';
-            context.beginPath();
-            context.arc(this.x + 36/2, this.y + this.height/2, 36/2, 0, Math.PI*2);
-            context.stroke();
+            //context.strokeStyle = 'white';
+            //context.beginPath();
+            //context.arc(this.x + 36/2, this.y + this.height/2, 36/2, 0, Math.PI*2);
+            //context.stroke();
             context.drawImage(this.image, this.frameArray[this.frameX], this.frameY*this.height, this.width, this.height, this.x, this.y, this.width, this.height);
         }
 
@@ -1169,8 +1169,8 @@ function playGame(){
                 context.drawImage(this.imageMiddle, this.x+this.widthStart+(this.widthMiddle*i), this.y, this.widthMiddle, this.height);
             }
             context.drawImage(this.imageEnd, this.x+this.widthTotal-this.widthEnd, this.y, this.widthEnd, this.height);
-            context.strokeStyle = 'white';
-            context.strokeRect(this.x, this.hitboxY, this.widthTotal, this.hitboxHeight);
+            //context.strokeStyle = 'white';
+            //context.strokeRect(this.x, this.hitboxY, this.widthTotal, this.hitboxHeight);
         }
 
         update(){
