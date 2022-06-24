@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: "Orbitron";
+    src: local("Orbitron"), url("./Fonts/Orbitron-VariableFont_wght.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#gamePlayCanvas {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#playerImage, #charge1Image, #charge2Image, #charge3Image, #charge4Image,
+#charge5Image, #charge6Image, #enemyImage, #shieldImage, #forceImage,
+#wallStart, #wallMiddle, #wallEnd, #enemyFire, #itemRobot, #topWallStart,
+#topWallMiddle, #topWallEnd, #largeEnemy, #enemyExplosion, #chargeSparks,
+#playerExplosion {
+    display: none;
 }
