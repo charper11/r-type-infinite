@@ -3,6 +3,10 @@
     src: local("Orbitron"), url("./Fonts/Orbitron-VariableFont_wght.ttf") format("truetype");
 }
 
+html * {
+    font-family: 'Orbitron';
+}
+
 body {
     background: black;
 }
