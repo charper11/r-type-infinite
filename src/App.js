@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+        <div className='button-padding'>
         <button id="playBtn" className="pushable" onClick={playGame}>
           <span className="shadow"></span>
           <span className="blue-edge"></span>
@@ -26,6 +27,7 @@ function App() {
             Info
           </span>
         </button>
+        </div>
         <canvas id="gamePlayCanvas"></canvas>
         <img id="playerImage" src="Sprites/shipSpriteImg.png"/>
         <img id="enemyImage" src="Sprites/enemyFlat.png"/>

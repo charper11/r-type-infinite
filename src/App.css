@@ -27,11 +27,15 @@ body {
     display: none;
 }
 
+.button-padding {
+    padding: 10px;
+}
+
 .pushable {
     position: relative;
     border: none;
     background: transparent;
-    padding: 0;
+    padding: 10px;
     cursor: pointer;
     transition: filter 250ms;
     outline: none;
