@@ -12,8 +12,20 @@ function App() {
 
   return (
     <div className="App">
-        <button id="playBtn" onClick={playGame}>play</button>
-        <button id="notesBtn" onClick={toggleNotes}>How to Play</button>
+        <button id="playBtn" className="pushable" onClick={playGame}>
+          <span className="shadow"></span>
+          <span className="blue-edge"></span>
+          <span className="blue-front">
+            play
+          </span>
+        </button>
+        <button id="notesBtn" className="pushable" onClick={toggleNotes}>
+          <span className="shadow"></span>
+          <span className="green-edge"></span>
+          <span className="green-front">
+            Info
+          </span>
+        </button>
         <canvas id="gamePlayCanvas"></canvas>
         <img id="playerImage" src="Sprites/shipSpriteImg.png"/>
         <img id="enemyImage" src="Sprites/enemyFlat.png"/>
