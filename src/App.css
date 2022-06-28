@@ -29,6 +29,9 @@ body {
 
 .button-padding {
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
 }
 
 .pushable {
