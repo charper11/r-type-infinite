@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.ea6bca5d.css",
+    "main.css": "./static/css/main.0eef475e.css",
     "main.js": "./static/js/main.fb619466.js",
     "static/media/Orbitron-VariableFont_wght.ttf": "./static/media/Orbitron-VariableFont_wght.401289bd772fecf69a15.ttf",
     "index.html": "./index.html",
-    "main.ea6bca5d.css.map": "./static/css/main.ea6bca5d.css.map",
+    "main.0eef475e.css.map": "./static/css/main.0eef475e.css.map",
     "main.fb619466.js.map": "./static/js/main.fb619466.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea6bca5d.css",
+    "static/css/main.0eef475e.css",
     "static/js/main.fb619466.js"
   ]
 }
