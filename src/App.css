@@ -13,7 +13,7 @@ body {
 
 #gamePlayCanvas {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 5px solid white;
@@ -34,6 +34,9 @@ body {
     display: flex;
     justify-content: space-between;
     width: 15%;
+    position: absolute;
+    top: 80%;
+    left: 42%;
 }
 
 .pushable {
